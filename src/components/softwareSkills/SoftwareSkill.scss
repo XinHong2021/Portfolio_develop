@@ -29,3 +29,21 @@
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 }
+
+.svg-icon {
+  padding-left: 0;
+  list-style: none;
+  font-size: 3rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.devicon-devicon-plain {
+  max-width: 2em;
+}
+
+/* if you want to change the original color */
+.devicon-devicon-plain path {
+  fill: #4691f6;
+}
